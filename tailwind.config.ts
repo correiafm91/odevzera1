@@ -84,11 +84,40 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'finger-tap': {
+					'0%, 100%': {
+						transform: 'scale(1)'
+					},
+					'50%': {
+						transform: 'scale(0.9)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
+				'finger-tap': 'finger-tap 1.5s infinite'
+			},
+			colors: {
+				'ocean-blue': '#0a192f',
+				'wine-dark': '#331423'
+			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
+				'space': ['Space Grotesk', 'sans-serif']
 			}
 		}
 	},
