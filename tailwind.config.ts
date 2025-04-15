@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,9 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'ocean-blue': '#0a192f',
+				'wine-dark': '#331423'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -109,10 +112,6 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
 				'finger-tap': 'finger-tap 1.5s infinite'
-			},
-			colors: {
-				'ocean-blue': '#0a192f',
-				'wine-dark': '#331423'
 			},
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
