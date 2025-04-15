@@ -6,7 +6,7 @@ import FAQ from "@/components/FAQ";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-ocean-blue">
+    <div className="min-h-screen bg-black">
       <main>
         <Hero />
         <Portfolio />
