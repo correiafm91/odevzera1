@@ -18,6 +18,10 @@ const Technologies = () => {
     },
   ];
 
+  const handleInstagramRedirect = () => {
+    window.open('https://www.instagram.com/direct/inbox/', '_blank');
+  };
+
   return (
     <section className="py-16 px-4 bg-secondary/20">
       <div className="max-w-5xl mx-auto">
@@ -43,6 +47,15 @@ const Technologies = () => {
               <p className="text-white font-medium">{tech.name}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <button 
+            onClick={handleInstagramRedirect}
+            className="bg-primary text-primary-foreground px-6 py-3 rounded-md hover:bg-primary/90 transition-colors text-base md:text-lg font-poppins"
+          >
+            Fazer um orçamento
+          </button>
         </div>
       </div>
     </section>
