@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -116,7 +115,8 @@ export default {
 			fontFamily: {
 				'poppins': ['Poppins', 'sans-serif'],
 				'inter': ['Inter', 'sans-serif'],
-				'space': ['Space Grotesk', 'sans-serif']
+				'space': ['Space Grotesk', 'sans-serif'],
+        'typewriter': ['Courier New', 'monospace'],
 			}
 		}
 	},

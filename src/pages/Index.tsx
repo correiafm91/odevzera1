@@ -2,7 +2,6 @@
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
 import Technologies from "@/components/Technologies";
-import ContactForm from "@/components/ContactForm";
 import FAQ from "@/components/FAQ";
 
 const Index = () => {
@@ -12,7 +11,6 @@ const Index = () => {
         <Hero />
         <Portfolio />
         <Technologies />
-        <ContactForm />
         <FAQ />
       </main>
       
